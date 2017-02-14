@@ -25,7 +25,7 @@
         <div class="main-header-wrap">
             <header id="main-header">
                 <h1 class="logo">
-                    <a href="#start">Freifunk Flensburg</a>
+                    <a href="#start">Freifunk Euskirchen</a>
                 </h1>
                 <nav class="main-navigation">
                     <ul onclick="<?php /* Fixes missing hover effect on iOS */?>">
@@ -87,19 +87,16 @@
         <footer class="main-footer">
             <ul class="list-external-links">
                 <li>
-                    <a href="https://www.facebook.com/FreifunkFlensburg" title="Erfahre mehr über uns bei Facebook." class="facebook" target="_blank">Facebook</a>
+                    <a href="https://www.facebook.com/FreifunkEuskirchen/" title="Erfahre mehr über uns bei Facebook." class="facebook" target="_blank">Facebook</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/FreiFunkFlens" title="Erfahre mehr über uns bei Twitter." class="twitter" target="_blank">Twitter</a>
-                </li>
-                <li>
-                    <a href="http://nordlab-ev.de" class="nordlab" title="Wir gehören zum nordlab e.V." target="_blank">nordlab e.V.</a>
+                    <a href="https://twitter.com/freifunkeu" title="Erfahre mehr über uns bei Twitter." class="twitter" target="_blank">Twitter</a>
                 </li>
                 <li>
                     <a href="http://freifunk.net/" class="freifunk" title="Die Webseite der Freifunk-Initiative" target="_blank">freifunk.net</a>
                 </li>
                 <li>
-                    <a href="https://github.com/freifunk-flensburg" class="github" title="Unser Code im Netz, zum Nachschlagen und Mitarbeiten.">GitHub</a>
+                    <a href="https://github.com/freifunkeu" class="github" title="Unser Code im Netz, zum Nachschlagen und Mitarbeiten.">GitHub</a>
                 </li>
             </ul>
         </footer>
