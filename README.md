@@ -2,7 +2,7 @@
 
 ---
 
-## Freifunk-Flensburg.de
+## Freifunk-Euskirchen.de
 
 ### Our main website for public relations.
 
