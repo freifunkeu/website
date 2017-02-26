@@ -1,7 +1,3 @@
-![Freifunk Flensburg](https://raw.githubusercontent.com/freifunk-flensburg/website/master/assets/images/freifunk-flensburg.png)
-
----
-
 ## Freifunk-Euskirchen.de
 
 ### Our main website for public relations.
