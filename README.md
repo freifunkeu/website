@@ -26,6 +26,7 @@ Change the `config.inc.php` to adjust it to your needs.
 
 - **@do9xe:** Content
 - **@flemsound:** Content
+- **@arwed:** Content/Link Changes
 
 **Pictures (CC-BY-NC-SA) by:**
 
@@ -34,4 +35,4 @@ Change the `config.inc.php` to adjust it to your needs.
 
 ---
 
-*Freifunk Flensburg is a project by the [nordlab e. V.](http://www.nordlab-ev.de) and [Chaostreff Flensburg](https://chaostreff-flensburg.de)*
+*Freifunk Euskirchen is a project by the [roots at eifel e.V.](https://www.roots-at-eifel.net) *
