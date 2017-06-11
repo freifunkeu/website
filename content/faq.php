@@ -9,7 +9,7 @@
 		<h4>Frage</h4>
 		<p>Wie kann ich Freifunk nutzen?</p>
 		<h4>Antwort</h4>
-		<p>Sobald du im Empfangsbereich einer der Knoten bist kannst du Freifunk mit jedem WLAN-fähigem Gerät nutzen. Sei es Smartphone, Tablett oder PC. Sobald du ein WLAN angezeigt bekommst, welches den Namen flensburg.freifunk.net hat, kannst du dich dort ohne Passwort einloggen. Wo der nächste Knoten steht, siehst du auf unserer Karte.</p>
+		<p>Sobald du im Empfangsbereich einer der Knoten bist kannst du Freifunk mit jedem WLAN-fähigem Gerät nutzen. Sei es Smartphone, Tablett oder PC. Sobald du ein WLAN angezeigt bekommst, welches den Namen Freifunk hat, kannst du dich dort ohne Passwort einloggen. Wo der nächste Knoten steht, siehst du auf unserer Karte.</p>
 	</article>
 
 	<article class="faq_content">
@@ -38,6 +38,6 @@
 		<h4>Frage</h4>
 		<p>Wie verbinden sich eure Router und woher kommt dieses neue WLAN mit komischen Namen?</p>
 		<h4>Antwort</h4>
-		<p>Unsere Knoten verbinden sich über ihr WLAN kabellos zu einem Mesh-Netzwerk, das heisst sie sprechen miteinander. So können zwei Knoten Daten austauschen, ihren Internetanschluss teilen und so das Freifunknetz erweitern. Dafür baut jeder Router auch ein Netzwerk mit dem Namen 22:22:54:78:09:43 auf. Dieses kannst du getrost ignorieren.</p>
+		<p>Unsere Knoten verbinden sich über ihr WLAN kabellos zu einem Mesh-Netzwerk, das heisst sie sprechen miteinander. So können zwei Knoten Daten austauschen, ihren Internetanschluss teilen und so das Freifunknetz erweitern. Dafür baut jeder Router auch ein Netzwerk mit dem Namen FFEU-BATBONE auf. Dieses kannst du getrost ignorieren.</p>
 	</article>
 </section>

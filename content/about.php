@@ -1,6 +1,6 @@
 <div class="about_main">
     <figure>
-        <img src="media/freifunk-flensburg-router.png" alt="Freifunk Flensburg Router" title="Freifunk Flensburg Router">
+        <img src="media/freifunk-flensburg-router.png" alt="Freifunk Euskirchen Router" title="Freifunk Euskirchen Router">
     </figure>
     <h3>Was ist Freifunk Euskirchen?</h3>
     <p>Freifunk Euskirchen ist dein freies WLAN zum selber machen im Kreis Euskirchen.</p>
