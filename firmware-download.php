@@ -1,6 +1,11 @@
 <?php
 require_once "config.inc.php";
 
+// Security check: only allow alphanumeric and these chars: ._-
+if(preg_match('/[^a-z_\-\.0-9]/i', $_REQUEST["router"])) {
+    die("This router model is unknown. Please contact us to fix this error!");
+}
+
 $router=$_REQUEST["router"];
 $fileExtension = '';
 $baseurl="./";
@@ -17,30 +22,12 @@ switch ($_REQUEST["type"]) {
         $type = 'factory'; 
 }
 
-switch ($_REQUEST["choose_comunity"]) {
-    case '0':
-        $community = 'notset';
-        break;
-    case '1':
-        $community = 'nordlab';
-        break;
-    default:
-        $community = 'notset';
-}
-
-$router = $_REQUEST["router"];
-
 if($router === '-1') {
     backlink('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
-} else{
-    if($community == 'notset'){
-        backlink('Bitte gib eine Comunity an.');
-    }
-    else {
-        $href=$baseurl.'media/firmware/' . $community . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
-        header('Location: '.$href);
-        echo '<a href="'.$href.'">redirecting</a>';
-    }
+} else {
+    $href=$baseurl . $channel . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
+    header('Location: '.$href);
+    echo '<a href="'.$href.'">redirecting</a>';
 }
 
 function backlink($t){
