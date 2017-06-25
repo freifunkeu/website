@@ -84,7 +84,8 @@ $(document).ready(function() {
                 prefix = '<?php
                 echo $firmware_prefix;
                 ?>';
-                window.location.href = '/stable/' + type + '/' + prefix + router + fileExtension + '.bin';
+                imagesBaseurl = '<?php echo $images_baseurl; ?>';
+                window.location.href = imagesBaseurl + '/stable/' + type + '/' + prefix + router + fileExtension + '.bin';
             }
         }
 
