@@ -8,7 +8,7 @@ if(preg_match('/[^a-z_\-\.0-9]/i', $_REQUEST["router"])) {
 
 $router=$_REQUEST["router"];
 $fileExtension = '';
-$baseurl="./";
+$baseurl="https://images.ffeu.de/";
 
 switch ($_REQUEST["type"]) {
     case '0':
