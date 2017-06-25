@@ -4,7 +4,7 @@
     <div class="donate_left">
         <h3>Überweisung</h3>
 
-        Unsere Kontodaten:
+        Die Kontodaten unseres Trägervereins:
         <table class="bank_account">
             <tr>
                 <td>Kontoinhaber</td>
