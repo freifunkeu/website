@@ -8,7 +8,7 @@ if(preg_match('/[^a-z_\-\.0-9]/i', $_REQUEST["router"])) {
 
 $router=$_REQUEST["router"];
 $fileExtension = '';
-$baseurl="https://images.ffeu.de/";
+$baseurl=$images_baseurl;
 
 switch ($_REQUEST["type"]) {
     case '0':
@@ -25,7 +25,7 @@ switch ($_REQUEST["type"]) {
 if($router === '-1') {
     backlink('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
 } else {
-    $href=$baseurl . $channel . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
+    $href=$baseurl . '/' . $channel . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
     header('Location: '.$href);
     echo '<a href="'.$href.'">redirecting</a>';
 }
