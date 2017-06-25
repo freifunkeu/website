@@ -67,14 +67,8 @@ $(document).ready(function() {
         }
 
         switch ($('#download_form_choose_comunity').val()) {
-            case '0':
-                community = 'notset';
-                break;
-            case '1':
-                community = 'nordlab';
-                break;
             default:
-                community = 'notset';
+                community = 'ffeu';
         }
 
         router = $('#download-form-router').val();
@@ -90,7 +84,7 @@ $(document).ready(function() {
                 prefix = '<?php
                 echo $firmware_prefix;
                 ?>';
-                window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
+                window.location.href = '/stable/' + type + '/' + prefix + router + fileExtension + '.bin';
             }
         }
 
