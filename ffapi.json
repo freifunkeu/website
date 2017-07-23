@@ -1,0 +1,61 @@
+{
+  "name": "Freifunk Euskirchen",
+  "url": "https://ffeu.de/",
+  "location": {
+    "city": "Euskirchen",
+    "country": "DE",
+    "lat": 50.66273759460316,
+    "lon": 6.785430908203125
+  },
+  "contact": {
+    "email": "kontakt@ffeu.de",
+    "ml": "https://lists.freifunk.net/mailman/listinfo/euskirchen-freifunk.net",
+    "twitter": "@freifunkeu"
+  },
+  "state": {
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2017-07-23T16:11:30.703Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://data15.kbu.freifunk.net/nodes.json",
+      "interval": "5",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "roots at eifel e.V.",
+      "street": "Heerstr. 103",
+      "zip": "53894",
+      "city": "Mechernich",
+      "url": "https://www.roots-at-eifel.net",
+      "email": "kontakt@roots-at-eifel.net"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE90382501100001670579",
+        "BIC": "WELADED1EUS",
+        "usage": "Spende Freifunk Euskirchen"
+      }
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://images.freifunk-euskirchen.de/"
+    },
+    "updatemode": [
+      "autoupdate"
+    ],
+    "routing": [],
+    "legals": []
+  },
+  "api": "0.4.14"
+}
