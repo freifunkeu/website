@@ -109,6 +109,7 @@ require_once "config.inc.php";
                 <option value="-tp-link-tl-wr1043n-nd-v1">TP-Link TL WR 1043 N/ND Ver:1</option>
                 <option value="-tp-link-tl-wr1043n-nd-v2">TP-Link TL WR 1043 N/ND Ver:2</option>
                 <option value="-tp-link-tl-wr1043n-nd-v3" class="highlighted">TP-Link TL WR 1043 N/ND Ver:3</option>
+                <option value="-tp-link-tl-wr1043n-nd-v4" class="highlighted">TP-Link TL WR 1043 N/ND Ver:4</option>
             </optgroup>
             <optgroup label="Ubiquiti">
                 <option value="-ubiquiti-bullet-m">Ubiquiti Bullet M</option>
@@ -129,7 +130,7 @@ require_once "config.inc.php";
         </select>
     </div>
     <input type="submit" class="submit" value="Herunterladen">
-    <a class="expertlist" href="http://images.freifunk-euskirchen.de">Dateiliste für Experten</a>
+    <a class="expertlist" href="http://images.ffeu.de/euskirchen/">Dateiliste für Experten</a>
     <p>Eine Anleitung wie du die Freifunk Euskirchen Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="https://kbu.freifunk.net/wiki/index.php?title=Firmware_aufspielen">hier im Wiki</a>. Die Freifunk Euskirchen Firmware steht unter der <a href="https://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
