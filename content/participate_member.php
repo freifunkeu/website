@@ -110,6 +110,8 @@ require_once "config.inc.php";
                 <option value="-tp-link-tl-wr1043n-nd-v2">TP-Link TL WR 1043 N/ND Ver:2</option>
                 <option value="-tp-link-tl-wr1043n-nd-v3" class="highlighted">TP-Link TL WR 1043 N/ND Ver:3</option>
                 <option value="-tp-link-tl-wr1043n-nd-v4" class="highlighted">TP-Link TL WR 1043 N/ND Ver:4</option>
+                <option value="-tp-link-archer-c5-v1">TP-Link Archer C5 v1</option>
+                <option value="-tp-link-archer-c7-v2" class="highlighted">TP-Link Archer C7 v2</option>
             </optgroup>
             <optgroup label="Ubiquiti">
                 <option value="-ubiquiti-bullet-m">Ubiquiti Bullet M</option>
