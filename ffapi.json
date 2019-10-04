@@ -23,9 +23,15 @@
   },
   "nodeMaps": [
     {
-      "url": "https://data15.kbu.freifunk.net/nodes.json",
+      "url": "https://map.freifunk-euskirchen.de/data/",
       "interval": "5",
-      "technicalType": "ffmap",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://fastd6.kbu.freifunk.net/data/",
+      "interval": "5",
+      "technicalType": "meshviewer",
       "mapType": "geographical"
     }
   ],
