@@ -12,10 +12,10 @@
             </tr>
             <tr>
                 <td>IBAN</td>
-                <td>DE90 3825 0110 0001 6705 79</td>
+                <td>DE80 4306 0967 1037 7952 00</td>
             <tr>
                 <td>BIC</td>
-                <td>WELADED1EUS</td>
+                <td>GENODEM1GLS</td>
             </tr>
             <tr>
                 <td>Verwendungszweck</td>
