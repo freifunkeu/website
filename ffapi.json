@@ -23,13 +23,7 @@
   },
   "nodeMaps": [
     {
-      "url": "https://map.freifunk-euskirchen.de/data/",
-      "interval": "5",
-      "technicalType": "meshviewer",
-      "mapType": "geographical"
-    },
-    {
-      "url": "https://fastd6.kbu.freifunk.net/data/",
+      "url": "https://map.kbu.freifunk.net/data/ffeu/meshviewer.json",
       "interval": "5",
       "technicalType": "meshviewer",
       "mapType": "geographical"
@@ -46,8 +40,8 @@
     },
     "donations": {
       "bankaccount": {
-        "IBAN": "DE90382501100001670579",
-        "BIC": "WELADED1EUS",
+        "IBAN": "DE80430609671037795200",
+        "BIC": "GENODEM1GLS",
         "usage": "Spende Freifunk Euskirchen"
       }
     }
@@ -55,7 +49,7 @@
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "http://images.freifunk-euskirchen.de/"
+      "url": "http://images.ffkbu.de/euskirchen/stable-v2/"
     },
     "updatemode": [
       "autoupdate"
